@@ -5,7 +5,6 @@
     max-width: 600px;
     margin: 2rem auto;
 }
-
 .movie-page svg{
     font-size: 1.5rem;
     color: #f7d354;
@@ -16,8 +15,7 @@
 .movie-page .movie-card img,
 .movie-page .movie-card h2,
 .movie-page .movie-card p{
-     margin-bottom: 1rem;
-
+    margin-bottom: 1rem;
 }
 .movie-page .movie-card h2{
     font-size: 2rem;
@@ -47,4 +45,16 @@
 }
 .description p {
     line-height: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    .movie-page {
+        padding: 1rem;
+    }
+    .movie-page .movie-card h2 {
+        font-size: 1.5rem;
+    }
+    .tagline {
+        font-size: 1.1rem;
+    }
 }

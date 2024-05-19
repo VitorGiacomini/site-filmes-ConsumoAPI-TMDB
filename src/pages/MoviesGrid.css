@@ -4,7 +4,6 @@
     text-align: center;
     margin: 2rem 0 1rem;
 }
-
 .title .query-text{
     color: #F7D354;
 }
@@ -52,4 +51,24 @@
 .movies-container div a:hover{
     background-color: transparent;
     color: #F7D354;
+}
+
+@media (max-width: 1024px) {
+    .movies-container div {
+        width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .container .title {
+        font-size: 2rem;
+    }
+    .movies-container {
+        padding: 1rem;
+    }
+    .movies-container div {
+        width: 100%;
+    }
+    .movies-container div a {
+        padding: 0.8rem;
+    }
 }
