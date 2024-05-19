@@ -4,6 +4,7 @@
     flex-direction: column;
     max-width: 600px;
     margin: 2rem auto;
+    padding: 0 1rem;
 }
 .movie-page svg{
     font-size: 1.5rem;
@@ -20,6 +21,8 @@
 .movie-page .movie-card img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 .movie-page .movie-card h2{
     font-size: 2rem;
