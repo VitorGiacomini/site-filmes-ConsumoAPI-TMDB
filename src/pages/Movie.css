@@ -17,6 +17,10 @@
 .movie-page .movie-card p{
     margin-bottom: 1rem;
 }
+.movie-page .movie-card img {
+    max-width: 100%;
+    height: auto;
+}
 .movie-page .movie-card h2{
     font-size: 2rem;
 }
@@ -56,5 +60,9 @@
     }
     .tagline {
         font-size: 1.1rem;
+    }
+    .movie-page .movie-card img {
+        max-width: 100%;
+        height: auto;
     }
 }
